@@ -2,8 +2,32 @@
 
 <head>
     <title>Graphed Functions</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <h1>Prompt: <em>which function is shown on this graph?</em></h1>
+    <div class="graphs">
+        <div class="graph">
+            <img src="assets/quadratic.png" width="300" height="300" alt="Graph of f(x) = x^2">
+            <span>The function could be y=x<sup>2</sup>.</span>
+        </div>
+        <div class="graph">
+            <img src="assets/cubic.png" width="300" height="300" alt="Graph of f(x) = x^3">
+            <span>Appears to represent a cubic function.</span> 
+        </div>
+        <div class="graph">
+            <img src="assets/trig.png" width="300" height="300" alt="Graph of f(x) = sin(x)">
+            <span>Sinusoidal function, most likely a sine or cosine wave</span>
+        </div>
+    </div>
 
+    <div class="explanation">
+        <h3>Performance in identifying function class from graph: very good.</h3>
+        <p>GPT-4 correctly identified the function type for all of these functions.</p>
+    </div>
+
+    <div class="home">
+        <p><a href="index.html">Home</a></p>
+    </div>
 </body>
