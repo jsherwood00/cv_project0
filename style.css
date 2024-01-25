@@ -1,0 +1,44 @@
+body{
+    background-color:black
+}
+
+.clocks{
+    display:flex;
+    text-align: center;
+    padding: 140px;
+}
+
+.graphs{
+    padding:100 100px;
+    margin:50px;
+}
+.clock{
+    text-align:center;
+    display:inline-block;
+}
+
+a:hover{
+    color:green;
+}
+
+h1{
+    color:whitesmoke;
+}
+
+a{
+    color:whitesmoke;
+}
+
+.explanation{
+    margin-top:100px;
+}
+
+.home{
+    text-align: center;
+    font-size:35px;
+    color:white;
+}
+p, span, h3, li{
+    font-size:30px;
+    color:whitesmoke
+}
